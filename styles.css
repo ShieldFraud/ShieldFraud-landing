@@ -1,0 +1,159 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #1e2a38; /* Cor da logo para o fundo */
+color: #fff; /* Texto em branco para contraste */
+line-height: 1.6;
+padding: 20px;
+}
+
+header {
+background-color: #1e2a38; /* Cor da logo */
+color: white;
+padding: 30px;
+text-align: center;
+border-radius: 10px;
+}
+
+header img {
+width: 400px; /* Ajusta a logo para um tamanho proporcional */
+height: auto; /* Garante que a logo seja proporcional */
+margin-bottom: 20px;
+}
+
+header h1 {
+font-size: 2.5rem;
+color: #fff; /* Título em branco para contrastar bem */
+}
+
+header p {
+font-size: 1.2rem;
+color: #fff; /* Texto explicativo em branco */
+}
+
+.cta {
+background-color: #e63946;
+color: white;
+padding: 15px;
+text-align: center;
+border-radius: 5px;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+margin-top: 20px;
+transition: background-color 0.3s;
+}
+
+.cta:hover {
+background-color: #d62e3e;
+}
+
+.content {
+max-width: 1000px;
+margin: 20px auto;
+padding: 20px;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+color: #333; /* Texto em cinza para o conteúdo */
+}
+
+h2 {
+color: #1e2a38; /* Cor da logo para os títulos */
+}
+
+p {
+font-size: 16px;
+line-height: 1.6;
+color: #555;
+}
+
+footer {
+text-align: center;
+margin-top: 40px;
+font-size: 14px;
+color: #666;
+}
+
+footer a {
+color: #1e2a38;
+text-decoration: none;
+}
+
+.responsabilidade {
+font-size: 14px;
+color: #fff;
+line-height: 1.8;
+margin-top: 20px;
+}
+
+.responsabilidade strong {
+color: #e63946;
+}
+
+.whatsapp-float {
+position: fixed;
+width: 60px;
+height: 60px;
+bottom: 20px;
+right: 20px;
+background-color: #25d366;
+color: white;
+border-radius: 50%;
+font-size: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+z-index: 100;
+}
+
+form {
+background-color: rgba(255,255,255,0.1);
+padding: 25px;
+border-radius: 10px;
+margin-top: 40px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+form input, form button {
+width: 100%;
+padding: 12px;
+margin-top: 10px;
+border: none;
+border-radius: 6px;
+font-size: 16px;
+}
+
+form input {
+background-color: #fff;
+color: #2f3640;
+}
+
+form button {
+background-color: #1dd1a1;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+
+form button:hover {
+background-color: #10ac84;
+}
+
+.lgpd {
+background-color: #1e2a38;
+color: white;
+padding: 30px;
+margin-top: 40px;
+border-radius: 10px;
+}
+
+.lgpd strong {
+color: #1dd1a1;
+}
